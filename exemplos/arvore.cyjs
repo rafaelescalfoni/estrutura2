@@ -1,0 +1,172 @@
+{
+    "elements":{  
+        "nodes":[ 
+            {  
+                "data": { 
+                    "id": 1
+                },
+                "position": { 
+                    "x": 200,
+                    "y": 10
+                }
+            }, 
+            {  
+                "data": { 
+                    "id": 2
+                },
+                "position": { 
+                    "x": 100,
+                    "y": 50
+                }
+            },
+            {  
+                "data": { 
+                    "id": 3
+                },
+                "position": { 
+                    "x": 200,
+                    "y": 50
+                }
+            },
+            {  
+                "data": { 
+                    "id": 4
+                },
+                "position": { 
+                    "x": 300,
+                    "y": 50
+                }
+            },
+            {  
+                "data": { 
+                    "id": 5
+                },
+                "position": { 
+                    "x": 60,
+                    "y": 100
+                }
+            },
+            {  
+                "data": { 
+                    "id": 6
+                },
+                "position": { 
+                    "x": 150,
+                    "y": 100
+                }
+            },
+            {  
+                "data": { 
+                    "id": 7
+                },
+                "position": { 
+                    "x": 200,
+                    "y": 100
+                }
+            },
+            {  
+                "data": { 
+                    "id": 8
+                },
+                "position": { 
+                    "x": 270,
+                    "y": 100
+                }
+            },
+            {  
+                "data": { 
+                    "id": 9
+                },
+                "position": { 
+                    "x": 320,
+                    "y": 100
+                }
+            },
+            {  
+                "data": { 
+                    "id": 10
+                },
+                "position": { 
+                    "x": 30,
+                    "y": 150
+                }
+            },
+            {  
+                "data": { 
+                    "id": 11
+                },
+                "position": { 
+                    "x": 80,
+                    "y": 150
+                }
+            }       
+        ],
+        "edges":[ 
+            {
+                "data": { 
+                    "source": 1, 
+                    "target": 2
+                }
+            }, 
+            {
+                "data": { 
+                    "source": 1, 
+                    "target": 3
+                }
+            }, 
+            {
+                "data": { 
+                    "source": 1, 
+                    "target": 4
+                }
+            }, 
+            {
+                "data": { 
+                    "source": 2, 
+                    "target": 5
+                }
+            }, 
+            {
+                "data": { 
+                    "source": 2, 
+                    "target": 6
+                }
+            }, 
+            {
+                "data": { 
+                    "source": 3, 
+                    "target": 7
+                }
+            }, 
+            {
+                "data": { 
+                    "source": 4, 
+                    "target": 8
+                }
+            }, 
+            {
+                "data": { 
+                    "source": 4, 
+                    "target": 9
+                }
+            }, 
+            {
+                "data": { 
+                    "source": 5, 
+                    "target": 10
+                }
+            }, 
+            {
+                "data": { 
+                    "source": 5, 
+                    "target": 11
+                }
+            }
+        ]
+    },
+    "data": {   
+        "title": "Arvore simples",       
+        "tags": [],       
+        "description": ""
+    }
+}

@@ -28,6 +28,17 @@ class DequeDinamico:
             ult_node.proximo = node
         return node
     
+    def get_node_inicio(self):
+        return self.inicio
+        
+    def get_node_fim(self):
+        ult_node = self.inicio
+        if (ult_node is None):
+            return None
+        while (ult_node.proximo is not None):
+            ult_node = ult_node.proximo
+        return ult_node        
+    
     def remove_esq(self):
         node = self.inicio
         if (node is not None):

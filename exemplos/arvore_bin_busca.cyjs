@@ -1,0 +1,127 @@
+{
+    "elements":{  
+        "nodes":[ 
+            {  
+                "data": { 
+                    "id": 5
+                },
+                "position": { 
+                    "x": 140,
+                    "y": 10
+                }
+            }, 
+            {  
+                "data": { 
+                    "id": 2
+                },
+                "position": { 
+                    "x": 80,
+                    "y": 50
+                }
+            },
+            {  
+                "data": { 
+                    "id": 7
+                },
+                "position": { 
+                    "x": 200,
+                    "y": 50
+                }
+            },
+            {  
+                "data": { 
+                    "id": 3
+                },
+                "position": { 
+                    "x": 120,
+                    "y": 100
+                }
+            },
+            {  
+                "data": { 
+                    "id": 21
+                },
+                "position": { 
+                    "x": 240,
+                    "y": 100
+                }
+            },
+            {  
+                "data": { 
+                    "id": 4
+                },
+                "position": { 
+                    "x": 150,
+                    "y": 150
+                }
+            },
+            {  
+                "data": { 
+                    "id": 9
+                },
+                "position": { 
+                    "x": 210,
+                    "y": 150
+                }
+            },
+            {  
+                "data": { 
+                    "id": 14
+                },
+                "position": { 
+                    "x": 240,
+                    "y": 200
+                }
+            }    
+        ],
+        "edges":[ 
+            {
+                "data": { 
+                    "source": 5, 
+                    "target": 2
+                }
+            }, 
+            {
+                "data": { 
+                    "source": 5, 
+                    "target": 7
+                }
+            }, 
+            {
+                "data": { 
+                    "source": 2, 
+                    "target": 3
+                }
+            }, 
+            {
+                "data": { 
+                    "source": 7, 
+                    "target": 21
+                }
+            }, 
+            {
+                "data": { 
+                    "source": 3, 
+                    "target": 4
+                }
+            }, 
+            {
+                "data": { 
+                    "source": 21, 
+                    "target": 9
+                }
+            }, 
+            {
+                "data": { 
+                    "source": 9, 
+                    "target": 14
+                }
+            }
+        ]
+    },
+    "data": {   
+        "title": "Arvore binária de busca",       
+        "tags": [],       
+        "description": ""
+    }
+}
