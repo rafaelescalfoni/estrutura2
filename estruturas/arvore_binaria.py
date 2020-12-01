@@ -202,9 +202,9 @@ class ArvoreBinariaBusca(ArvoreBinaria):
                 if pai.dir is not None and pai.dir.conteudo == val:
                     return pai
                 if pai.conteudo > val:
-                   pai = pai.esq
+                    pai = pai.esq
                 else:
-                   pai = pai.dir
+                    pai = pai.dir
         return pai
     
     def maior_val_esq(self, node):
