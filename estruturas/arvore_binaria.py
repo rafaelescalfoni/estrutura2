@@ -329,7 +329,22 @@ class ArvoreBinariaBusca(ArvoreBinaria):
                             no_pai.dir = novo_node
 
         del node
-                
+
+class ArvoreAVL(ArvoreBinariaBusca):
+    def fb(self, val):
+        node = self.busca(val)
+        h1 = 0
+        h2 = 0
+        if node.esq is not None:
+            h1 = self.altura(node.esq.conteudo) 
+        else:
+            h1 = -1
+        if node.dir is not None:
+            h2 = self.altura(node.dir.conteudo) 
+        else:
+            h2 = -1
+        return h2 - h1
+
 
 class No:
     def __init__(self, val):

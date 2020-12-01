@@ -17,9 +17,9 @@ class Arvore:
         print( result.rstrip(' >> '))    
 
     def mostra_largura(self):
-        # implemente aqui seu codigo
+        # implementar
         return None
-
+ 
         
 class Node:
     def __init__(self, val):
